@@ -1,0 +1,29 @@
+
+*********** REPORT 001 **************
+Contract ID 		No of Unique Customers
+2346				2
+2345				3
+
+
+
+*********** REPORT 002 **************
+Geo Zone 			No of Unique Customers
+eu_west				2
+us_west				2
+us_east				1
+
+
+
+*********** REPORT 003 **************
+Geo Zone 			AVG Build Time
+eu_west				4222 sec
+us_west				2216 sec
+us_east				3445 sec
+
+
+
+*********** REPORT 004 **************
+Geo Zone 			Customer IDs
+eu_west				[3244132, 3244332]
+us_west				[1233456, 1223456]
+us_east				[2343225]
