@@ -2,7 +2,7 @@ package org.asif.report.util;
 
 import java.io.File;
 
-import org.asif.reporting.ReportTypeEnum;
+import org.asif.report.ReportTypeEnum;
 
 public class ReportFileFactoryImpl implements ReportFileFactory {
 

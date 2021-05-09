@@ -4,9 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import org.asif.report.ReportTypeEnum;
 import org.asif.report.util.ReportFileFactory;
 import org.asif.report.util.ReportFileFactoryImpl;
-import org.asif.reporting.ReportTypeEnum;
 
 public class InputFactoryImpl implements InputFactory {
 

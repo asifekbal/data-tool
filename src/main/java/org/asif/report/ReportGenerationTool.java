@@ -1,4 +1,4 @@
-package org.asif.reporting;
+package org.asif.report;
 
 import java.util.List;
 

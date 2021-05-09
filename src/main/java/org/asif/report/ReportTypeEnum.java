@@ -1,4 +1,4 @@
-package org.asif.reporting;
+package org.asif.report;
 
 public enum ReportTypeEnum {
 	

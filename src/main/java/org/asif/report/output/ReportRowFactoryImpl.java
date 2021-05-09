@@ -1,6 +1,6 @@
 package org.asif.report.output;
 
-import org.asif.reporting.ReportTypeEnum;
+import org.asif.report.ReportTypeEnum;
 
 public class ReportRowFactoryImpl implements ReportRowFactory {
 

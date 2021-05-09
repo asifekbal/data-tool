@@ -9,13 +9,13 @@ import java.util.Set;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.asif.report.ReportTypeEnum;
 import org.asif.report.input.InputRow;
 import org.asif.report.output.ReportRowFactory;
 import org.asif.report.output.ReportRowFactoryImpl;
 import org.asif.report.output.ResultRow;
 import org.asif.report.pojo.Customer;
 import org.asif.report.pojo.Geozone;
-import org.asif.reporting.ReportTypeEnum;
 
 public class ReportBGeratorImpl implements ReportGerator {
 
