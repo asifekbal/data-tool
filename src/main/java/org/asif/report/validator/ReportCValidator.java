@@ -17,6 +17,8 @@ public class ReportCValidator implements ReportValidator {
 				return false;
 			}
 			String str = row.getBuildDuration();
+			if (str.charAt(str.length() - 1) != 's')
+				return false;
 			String duration = str.substring(0, str.length() - 1);
 			if (!StringUtils.isNumeric(duration)) {
 				return false;
