@@ -18,7 +18,7 @@ import org.asif.report.validator.ReportValidatorFactory;
 public class ReportGenerationTool {
 	public static final Logger logger = LogManager.getLogger(ReportGenerationTool.class);
 
-	public static void main(String[] args) {
+	public static void main(String args[]){
 
 		logger.info("****REPORT GENERATION IS STARTED****");
 

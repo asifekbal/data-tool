@@ -16,14 +16,18 @@ import org.asif.report.output.ReportRowFactoryImpl;
 import org.asif.report.output.ResultRow;
 import org.asif.report.pojo.Contract;
 import org.asif.report.pojo.Customer;
+import org.asif.report.service.ReportGeneratorServiceImpl;
+import org.asif.report.service.ReportGeneratorSevice;
 
 public class ReportAGeratorImpl implements ReportGerator {
 
 	public static final Logger logger = LogManager.getLogger(ReportAGeratorImpl.class);
 	private Map<Contract, Set<Customer>> map = null;
+	private ReportGeneratorSevice reportGeneratorSevice;
 
-	public ReportAGeratorImpl() {
+	public ReportAGeratorImpl(ReportGeneratorSevice reportGeneratorSevice) {
 		super();
+		this.reportGeneratorSevice = reportGeneratorSevice;
 	}
 
 	@Override
@@ -60,6 +64,10 @@ public class ReportAGeratorImpl implements ReportGerator {
 		}
 		logger.info("Map initialised successfully");
 		return map;
+	}
+
+	public List<String> getReportType() {
+		return reportGeneratorSevice.getReportTypes();
 	}
 
 }

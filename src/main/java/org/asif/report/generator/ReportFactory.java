@@ -11,7 +11,7 @@ public class ReportFactory {
 	public static ReportGerator create(ReportTypeEnum reportTypeEnum) {
 		ReportGerator reportGerator = null;
 		if (reportTypeEnum == ReportTypeEnum.REPORT_TYPE_A) {
-			reportGerator = new ReportAGeratorImpl();
+			reportGerator = new ReportAGeratorImpl(null);
 		} else if (reportTypeEnum == ReportTypeEnum.REPORT_TYPE_B) {
 			reportGerator = new ReportBGeratorImpl();
 		} else if (reportTypeEnum == ReportTypeEnum.REPORT_TYPE_C) {
